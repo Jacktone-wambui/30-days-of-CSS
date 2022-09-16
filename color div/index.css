@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	height: 100vh;
+	background: linear-gradient(to right,blue 25%,green 75%);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
