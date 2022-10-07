@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+	font-family: 'Roboto',sans-serif;
+	display:flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+.container{
+	width: 900px;
+	height: 550px;
+	background: #fff;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 25px;
+}
+h1{
+	color: #271950;
+	font-weight: bolder;
+	font-size: 3em;
+}
+#about-right{
+	position: absolute;
+	top: 150px;
+}
+h4{
+	color: #fff;
+}
+.box{
+	background: url("Frame 2.png");
+	backfround-size: 380px 470px;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 470px;
+	width: 380px;
+	z-index: 3;
+	left: 470px;
+	top: 50px;
+}
+ .bolt{
+	color: yellow;
+}
+
+.small{
+	padding: 5px;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+#border{
+  background: #271950;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 400px;
+  height: 70px;
+  font: #FFF;
+}
